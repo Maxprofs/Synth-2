@@ -1,0 +1,801 @@
+{
+  "nodes": [
+    {
+      "match": 0.861,
+      "name": "Siren Song",
+      "artist": "Flying Lotus",
+      "id": "siren_song_flying_lotus",
+      "playcount": 20206
+    },
+    {
+      "match": 0.105,
+      "name": "Confessions Pt. II (feat. Colin Stetson)",
+      "artist": "BADBADNOTGOOD",
+      "id": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "playcount": 19464
+    },
+    {
+      "match": 0.087,
+      "name": "Confessions Pt II",
+      "artist": "BADBADNOTGOOD",
+      "id": "confessions_pt_ii_badbadnotgood",
+      "playcount": 19549
+    },
+    {
+      "match": 0.085,
+      "name": "Forever 1 - Cashmere Cat Remix",
+      "artist": "Hudson Mohawke",
+      "id": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "playcount": 21979
+    },
+    {
+      "match": 0.077,
+      "name": "Wngs",
+      "artist": "Knxwledge",
+      "id": "wngs_knxwledge",
+      "playcount": 31839
+    },
+    {
+      "match": 0.072,
+      "name": "Afraid of Us",
+      "artist": "Jonwayne",
+      "id": "afraid_of_us_jonwayne",
+      "playcount": 4976
+    },
+    {
+      "match": 0.072,
+      "name": "Homewards",
+      "artist": "Mndsgn",
+      "id": "homewards_mndsgn",
+      "playcount": 38471
+    },
+    {
+      "match": 0.071,
+      "name": "Green Light",
+      "artist": "Jonwayne",
+      "id": "green_light_jonwayne",
+      "playcount": 12788
+    },
+    {
+      "match": 0.716,
+      "name": "Lavender (Feat. Kaytranada)",
+      "artist": "BADBADNOTGOOD",
+      "id": "lavender_feat_kaytranada_badbadnotgood",
+      "playcount": 54072
+    },
+    {
+      "match": 0.304,
+      "name": "Walkin’",
+      "artist": "Thundercat",
+      "id": "walkin_thundercat",
+      "playcount": 111568
+    },
+    {
+      "match": 0.301,
+      "name": "Never Catch Me",
+      "artist": "Flying Lotus",
+      "id": "never_catch_me_flying_lotus",
+      "playcount": 43214
+    },
+    {
+      "match": 0.285,
+      "name": "A Love Supreme, Pt. I – Acknowledgement",
+      "artist": "John Coltrane",
+      "id": "a_love_supreme_pt_i__acknowledgement_john_coltrane",
+      "playcount": 32560
+    },
+    {
+      "match": 0.278,
+      "name": "Sultan’s Request",
+      "artist": "Flying Lotus",
+      "id": "sultans_request_flying_lotus",
+      "playcount": 39429
+    },
+    {
+      "match": 0.21,
+      "name": "No One Could Ever",
+      "artist": "Hudson Mohawke",
+      "id": "no_one_could_ever_hudson_mohawke",
+      "playcount": 109142
+    },
+    {
+      "match": 0.191,
+      "name": "Experience",
+      "artist": "BADBADNOTGOOD & Ghostface Killah",
+      "id": "experience_badbadnotgood__ghostface_killah",
+      "playcount": 32435
+    },
+    {
+      "match": 0.18,
+      "name": "A Love Supreme, Pt. II - Resolution",
+      "artist": "John Coltrane",
+      "id": "a_love_supreme_pt_ii__resolution_john_coltrane",
+      "playcount": 22624
+    },
+    {
+      "match": 0.178,
+      "name": "Paper",
+      "artist": "Jonwayne",
+      "id": "paper_jonwayne",
+      "playcount": 4746
+    },
+    {
+      "match": 0.177,
+      "name": "Still Talking To You",
+      "artist": "Nujabes",
+      "id": "still_talking_to_you_nujabes",
+      "playcount": 125370
+    },
+    {
+      "match": 0.169,
+      "name": "Residual Tingles",
+      "artist": "The Gaslamp Killer",
+      "id": "residual_tingles_the_gaslamp_killer",
+      "playcount": 12562
+    },
+    {
+      "match": 0.168,
+      "name": "Introduction",
+      "artist": "Madlib",
+      "id": "introduction_madlib",
+      "playcount": 158086
+    },
+    {
+      "match": 0.165,
+      "name": "Knickers Turned",
+      "artist": "Madlib",
+      "id": "knickers_turned_madlib",
+      "playcount": 7907
+    },
+    {
+      "match": 0.321,
+      "name": "Lavender",
+      "artist": "BADBADNOTGOOD",
+      "id": "lavender_badbadnotgood",
+      "playcount": 28106
+    },
+    {
+      "match": 0.976,
+      "name": "Make You Wanna",
+      "artist": "Ta-ku",
+      "id": "make_you_wanna_taku",
+      "playcount": 104249
+    },
+    {
+      "match": 0.936,
+      "name": "Playing With Fire",
+      "artist": "Redinho",
+      "id": "playing_with_fire_redinho",
+      "playcount": 40972
+    },
+    {
+      "match": 0.808,
+      "name": "See More Than Just Stars (feat. Helado Negro)",
+      "artist": "Prefuse 73",
+      "id": "see_more_than_just_stars_feat_helado_negro_prefuse_73",
+      "playcount": 13963
+    },
+    {
+      "match": 0.773,
+      "name": "Ryderz",
+      "artist": "Hudson Mohawke",
+      "id": "ryderz_hudson_mohawke",
+      "playcount": 113219
+    },
+    {
+      "match": 0.734,
+      "name": "Put It Down (feat. Anderson .Paak & Krne)",
+      "artist": "TOKiMONSTA",
+      "id": "put_it_down_feat_anderson_paak__krne_tokimonsta",
+      "playcount": 43568
+    },
+    {
+      "match": 0.725,
+      "name": "Andrew",
+      "artist": "Jonwayne",
+      "id": "andrew_jonwayne",
+      "playcount": 60850
+    },
+    {
+      "match": 0.712,
+      "name": "See you leave",
+      "artist": "RJD2",
+      "id": "see_you_leave_rjd2",
+      "playcount": 75062
+    },
+    {
+      "match": 0.696,
+      "name": "I'm Waiting",
+      "artist": "TOKiMONSTA",
+      "id": "im_waiting_tokimonsta",
+      "playcount": 20532
+    },
+    {
+      "match": 0.681,
+      "name": "Gold Coat (feat. Cuushe)",
+      "artist": "Iglooghost",
+      "id": "gold_coat_feat_cuushe_iglooghost",
+      "playcount": 19199
+    },
+    {
+      "match": 0.642,
+      "name": "Meet In The Middle",
+      "artist": "Ta-ku",
+      "id": "meet_in_the_middle_taku",
+      "playcount": 38753
+    },
+    {
+      "match": 0.632,
+      "name": "Don't Mind Me (feat. Whoarei)",
+      "artist": "Nosaj Thing",
+      "id": "dont_mind_me_feat_whoarei_nosaj_thing",
+      "playcount": 50924
+    },
+    {
+      "match": 0.624,
+      "name": "Juju",
+      "artist": "Ras G",
+      "id": "juju_ras_g",
+      "playcount": 109039
+    },
+    {
+      "match": 0.619,
+      "name": "Italy",
+      "artist": "Samiyam",
+      "id": "italy_samiyam",
+      "playcount": 15532
+    },
+    {
+      "match": 0.976,
+      "name": "OnToMe",
+      "artist": "Knxwledge",
+      "id": "ontome_knxwledge",
+      "playcount": 18567
+    },
+    {
+      "match": 0.223,
+      "name": "Spectrum",
+      "artist": "Ohbliv",
+      "id": "spectrum_ohbliv",
+      "playcount": 1751
+    },
+    {
+      "match": 0.215,
+      "name": "Luvpoem",
+      "artist": "Ohbliv",
+      "id": "luvpoem_ohbliv",
+      "playcount": 3388
+    },
+    {
+      "match": 0.191,
+      "name": "Try This Peppermint Soap",
+      "artist": "Mndsgn",
+      "id": "try_this_peppermint_soap_mndsgn",
+      "playcount": 10746
+    },
+    {
+      "match": 0.168,
+      "name": "legwarmrs",
+      "artist": "Mndsgn",
+      "id": "legwarmrs_mndsgn",
+      "playcount": 8093
+    },
+    {
+      "match": 0.106,
+      "name": "3 Way Mirrors",
+      "artist": "Dibiase",
+      "id": "3_way_mirrors_dibiase",
+      "playcount": 5909
+    },
+    {
+      "match": 0.098,
+      "name": "This L",
+      "artist": "Samiyam",
+      "id": "this_l_samiyam",
+      "playcount": 10606
+    },
+    {
+      "match": 0.095,
+      "name": "Lumberjack",
+      "artist": "Dibiase",
+      "id": "lumberjack_dibiase",
+      "playcount": 9993
+    },
+    {
+      "match": 0.095,
+      "name": "Makinglists",
+      "artist": "Devonwho",
+      "id": "makinglists_devonwho",
+      "playcount": 3070
+    },
+    {
+      "match": 0.095,
+      "name": "French Vanilla",
+      "artist": "Elaquent",
+      "id": "french_vanilla_elaquent",
+      "playcount": 18769
+    },
+    {
+      "match": 0.095,
+      "name": "Cushion",
+      "artist": "Samiyam",
+      "id": "cushion_samiyam",
+      "playcount": 50772
+    },
+    {
+      "match": 0.093,
+      "name": "HereisWhere",
+      "artist": "Bahwee",
+      "id": "hereiswhere_bahwee",
+      "playcount": 26518
+    },
+    {
+      "match": 0.092,
+      "name": "Peach Flavored",
+      "artist": "Bahwee",
+      "id": "peach_flavored_bahwee",
+      "playcount": 27303
+    },
+    {
+      "match": 0.995,
+      "name": "Rainbow",
+      "artist": "Jonwayne",
+      "id": "rainbow_jonwayne",
+      "playcount": 3491
+    },
+    {
+      "match": 0.163,
+      "name": "Popeye",
+      "artist": "Quelle Chris",
+      "id": "popeye_quelle_chris",
+      "playcount": 3184
+    },
+    {
+      "match": 0.123,
+      "name": "Buddies",
+      "artist": "Quelle Chris",
+      "id": "buddies_quelle_chris",
+      "playcount": 4465
+    },
+    {
+      "match": 0.081,
+      "name": "NNGE",
+      "artist": "Oddisee",
+      "id": "nnge_oddisee",
+      "playcount": 6470
+    },
+    {
+      "match": 0.079,
+      "name": "Worlds to Run (featuring Milo, Anderson Paak)",
+      "artist": "Busdriver",
+      "id": "worlds_to_run_featuring_milo_anderson_paak_busdriver",
+      "playcount": 35563
+    },
+    {
+      "match": 0.072,
+      "name": "Feelin",
+      "artist": "Knxwledge",
+      "id": "feelin_knxwledge",
+      "playcount": 10802
+    },
+    {
+      "match": 0.844,
+      "name": "Camelblues",
+      "artist": "Mndsgn",
+      "id": "camelblues_mndsgn",
+      "playcount": 91232
+    },
+    {
+      "match": 0.103,
+      "name": "thtbodi",
+      "artist": "Knxwledge",
+      "id": "thtbodi_knxwledge",
+      "playcount": 19243
+    },
+    {
+      "match": 0.102,
+      "name": "onlijournitro",
+      "artist": "Knxwledge",
+      "id": "onlijournitro_knxwledge",
+      "playcount": 19657
+    },
+    {
+      "match": 0.08,
+      "name": "Think_Process",
+      "artist": "Juj",
+      "id": "think_process_juj",
+      "playcount": 1531
+    },
+    {
+      "match": 0.08,
+      "name": "Filmstrip",
+      "artist": "Ackryte",
+      "id": "filmstrip_ackryte",
+      "playcount": 2407
+    },
+    {
+      "match": 0.078,
+      "name": "Creep",
+      "artist": "Juj",
+      "id": "creep_juj",
+      "playcount": 3903
+    },
+    {
+      "match": 0.078,
+      "name": "Going",
+      "artist": "Ackryte",
+      "id": "going_ackryte",
+      "playcount": 6391
+    },
+    {
+      "match": 0.075,
+      "name": "Olivia",
+      "artist": "Shigeto",
+      "id": "olivia_shigeto",
+      "playcount": 78922
+    },
+    {
+      "match": 0.074,
+      "name": "Four Days Alone",
+      "artist": "B.Lewis",
+      "id": "four_days_alone_blewis",
+      "playcount": 2299
+    },
+    {
+      "match": 0.072,
+      "name": "Tuesday",
+      "artist": "AFTA-1",
+      "id": "tuesday_afta1",
+      "playcount": 3994
+    },
+    {
+      "match": 0.928,
+      "name": "Minerals & Gems",
+      "artist": "Jonwayne",
+      "id": "minerals__gems_jonwayne",
+      "playcount": 10148
+    },
+    {
+      "match": 0.092,
+      "name": "Love Lost",
+      "artist": "Ta-ku",
+      "id": "love_lost_taku",
+      "playcount": 76827
+    },
+    {
+      "match": 0.091,
+      "name": "Announcement",
+      "artist": "Samiyam",
+      "id": "announcement_samiyam",
+      "playcount": 5345
+    },
+    {
+      "match": 0.087,
+      "name": "Moving On",
+      "artist": "Ta-ku",
+      "id": "moving_on_taku",
+      "playcount": 49035
+    },
+    {
+      "match": 0.085,
+      "name": "Forget It",
+      "artist": "Samiyam",
+      "id": "forget_it_samiyam",
+      "playcount": 7227
+    },
+    {
+      "match": 0.082,
+      "name": "Antibodies",
+      "artist": "Mono/Poly",
+      "id": "antibodies_monopoly",
+      "playcount": 16081
+    },
+    {
+      "match": 0.078,
+      "name": "Yuumshit",
+      "artist": "Ras G",
+      "id": "yuumshit_ras_g",
+      "playcount": 2071
+    },
+    {
+      "match": 0.072,
+      "name": "With Me Now",
+      "artist": "fLako",
+      "id": "with_me_now_flako",
+      "playcount": 8640
+    }
+  ],
+  "links": [
+    {
+      "source": "never_catch_me_flying_lotus",
+      "target": "siren_song_flying_lotus"
+    },
+    {
+      "source": "never_catch_me_flying_lotus",
+      "target": "confessions_pt_ii_feat_colin_stetson_badbadnotgood"
+    },
+    {
+      "source": "never_catch_me_flying_lotus",
+      "target": "confessions_pt_ii_badbadnotgood"
+    },
+    {
+      "source": "never_catch_me_flying_lotus",
+      "target": "forever_1__cashmere_cat_remix_hudson_mohawke"
+    },
+    {
+      "source": "never_catch_me_flying_lotus",
+      "target": "wngs_knxwledge"
+    },
+    {
+      "source": "never_catch_me_flying_lotus",
+      "target": "afraid_of_us_jonwayne"
+    },
+    {
+      "source": "never_catch_me_flying_lotus",
+      "target": "homewards_mndsgn"
+    },
+    {
+      "source": "never_catch_me_flying_lotus",
+      "target": "green_light_jonwayne"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "lavender_feat_kaytranada_badbadnotgood"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "walkin_thundercat"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "never_catch_me_flying_lotus"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "a_love_supreme_pt_i__acknowledgement_john_coltrane"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "sultans_request_flying_lotus"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "no_one_could_ever_hudson_mohawke"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "experience_badbadnotgood__ghostface_killah"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "a_love_supreme_pt_ii__resolution_john_coltrane"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "paper_jonwayne"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "still_talking_to_you_nujabes"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "residual_tingles_the_gaslamp_killer"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "introduction_madlib"
+    },
+    {
+      "source": "confessions_pt_ii_feat_colin_stetson_badbadnotgood",
+      "target": "knickers_turned_madlib"
+    },
+    {
+      "source": "confessions_pt_ii_badbadnotgood",
+      "target": "lavender_badbadnotgood"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "make_you_wanna_taku"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "playing_with_fire_redinho"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "see_more_than_just_stars_feat_helado_negro_prefuse_73"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "ryderz_hudson_mohawke"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "put_it_down_feat_anderson_paak__krne_tokimonsta"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "andrew_jonwayne"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "see_you_leave_rjd2"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "im_waiting_tokimonsta"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "gold_coat_feat_cuushe_iglooghost"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "meet_in_the_middle_taku"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "dont_mind_me_feat_whoarei_nosaj_thing"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "juju_ras_g"
+    },
+    {
+      "source": "forever_1__cashmere_cat_remix_hudson_mohawke",
+      "target": "italy_samiyam"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "ontome_knxwledge"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "spectrum_ohbliv"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "luvpoem_ohbliv"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "try_this_peppermint_soap_mndsgn"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "legwarmrs_mndsgn"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "3_way_mirrors_dibiase"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "this_l_samiyam"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "lumberjack_dibiase"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "makinglists_devonwho"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "french_vanilla_elaquent"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "cushion_samiyam"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "hereiswhere_bahwee"
+    },
+    {
+      "source": "wngs_knxwledge",
+      "target": "peach_flavored_bahwee"
+    },
+    {
+      "source": "afraid_of_us_jonwayne",
+      "target": "rainbow_jonwayne"
+    },
+    {
+      "source": "afraid_of_us_jonwayne",
+      "target": "popeye_quelle_chris"
+    },
+    {
+      "source": "afraid_of_us_jonwayne",
+      "target": "buddies_quelle_chris"
+    },
+    {
+      "source": "afraid_of_us_jonwayne",
+      "target": "nnge_oddisee"
+    },
+    {
+      "source": "afraid_of_us_jonwayne",
+      "target": "worlds_to_run_featuring_milo_anderson_paak_busdriver"
+    },
+    {
+      "source": "afraid_of_us_jonwayne",
+      "target": "feelin_knxwledge"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "camelblues_mndsgn"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "thtbodi_knxwledge"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "onlijournitro_knxwledge"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "think_process_juj"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "filmstrip_ackryte"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "creep_juj"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "going_ackryte"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "olivia_shigeto"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "four_days_alone_blewis"
+    },
+    {
+      "source": "homewards_mndsgn",
+      "target": "tuesday_afta1"
+    },
+    {
+      "source": "green_light_jonwayne",
+      "target": "minerals__gems_jonwayne"
+    },
+    {
+      "source": "green_light_jonwayne",
+      "target": "love_lost_taku"
+    },
+    {
+      "source": "green_light_jonwayne",
+      "target": "announcement_samiyam"
+    },
+    {
+      "source": "green_light_jonwayne",
+      "target": "moving_on_taku"
+    },
+    {
+      "source": "green_light_jonwayne",
+      "target": "forget_it_samiyam"
+    },
+    {
+      "source": "green_light_jonwayne",
+      "target": "antibodies_monopoly"
+    },
+    {
+      "source": "green_light_jonwayne",
+      "target": "yuumshit_ras_g"
+    },
+    {
+      "source": "green_light_jonwayne",
+      "target": "with_me_now_flako"
+    }
+  ]
+}
+
+
+

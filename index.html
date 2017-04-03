@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Music Networks</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="index.html">Home</a>
+          <a class="blog-nav-item" href="/Networks/kendrick.html">Kendrick Network</a>
+          <a class="blog-nav-item" href="/Networks/flying.html">Flying Lotus Network</a>
+          <a class="blog-nav-item" href="/Networks/haywyre.html">Haywyre Network</a>
+        </nav>
+      </div>
+    </div>
+      
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">Musical Relations</h1>
+        <p class="lead blog-description">Who is related to who and how in the world of music</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+              
+              <p>Note: All plots are linked in the Nav-bar above</p>
+
+            <hr>
+            <h2>Introduction and Method</h2>  
+            <p>To continue with the exploration of musical content, I decided to visualize similar songs scraped from last.fm I was personally familiar with into a network to actively illustrate the different groups of similarity that can emerge. This was done primarily for three reasons; to see if cross genre similarities could be drawn, to see if the songs displayed as similar were songs I enjoyed or listened to before, and to try and analyze how last.fm determines similarity among tracks. To achieve these tasks, I used the ruby gem <a href="https://github.com/youpy/ruby-lastfm">ruby-lastfm</a> which is a set of functions that scrapes data from last.fm using their API.  In order to build a network, a JSON data format is necessary to illustrate connections. These connections are illustrated as links and nodes as a and form a structure like a linked list. Each node is a song and each link is a list of two songs (organized into a source song and a target song) that are related (the links are the primary way that the networks structure is formed). In order to avoid noise and keep the network small, there are only two layers of similarity displayed which creates two types of groups (this was done by eliminating songs that had less than 7 percent similarity.) The first grouping is songs that are primarily like the main song that was searched on (called primary songs). The second grouping represent similar songs to each primary song (called secondary songs) to After the data was organized into JSON, I then used the R language to actually plot the networks (using an implementation of the JavaScript plotting framework D3.js that works in R). The decision to use R is a personal one and not necessarily because it is the best language for the job, as I want to learn the language and find the best way to do so for myself is to work on actual projects with it. It may have been easier to simply learn D3 myself or learn some other plotting tool (or even learn how to plot networks natively in R). I will go over this in more detail in the retrospective section. Next I will detail what the plots display and give an analysis of that display.</p>
+            <h2>Plot analysis</h2>
+            <p>So what can we glean from these plots? First, the songs analyzed are songs that I am familiar with and songs whose genre’s I consider myself familiar with. The three songs are Backstreet Freestyle by Kendrick Lamar (west coast style Hip-hop), Never Catch Me by Flying Lotus featuring Kendrick Lamar (Electronic/Funk/Hip-Hop), and Insight by Haywyre (dubstep/electronica/jazz). Starting with Backstreet Freestyle, the most frequent artist that appear as related are Drake, Kanye West, J. Cole and Run the Jewels, all artists who are normally considered in a similar genre to Kendrick. The songs themselves in the primary group are all ones I am familiar with and listen too regularly, although in the secondary group, there are relatively few songs that I have ever listened to even once. For Never Catch me, the network is significantly smaller (as there is probably less data for a less well known artist). For this one, I do not recognize any of the songs that are considered related in either the primary or secondary grouping. And for Insight by Haywyre, the network came to a size like Backstreet Freestyle, and the song familiarity is also very similar, although I am much more familiar with the secondary songs as well as the primary. There are also some interesting observations I took from all three of the networks. All three exhibit very few songs in the network that were from the same artist as the root song. This could be because I picked songs that last.fm considers to be out of the ordinary for a certain artist or that lastfm’s algorithm is purposely biased against the same artist in order to give the greatest variety (because it is a recommendation service). Also, although no formal analysis was done for this, it seems as if there are very few if any cross-genre similar songs among any of the networks. </p>
+            
+            <p>From this, some interesting question arise about how last.fm actually works as a service and about how are listening habit may be effected by these services decisions. First, the documentation on how last.fm creates the similar songs lists is not very clear. However what we can glean from what the API gives us is that it is likely based on listening data and not based on the objective features of the song. In the Spotify API, one can get a variety of acoustic features about songs. This is not so for lastfm. In addition to this, there is some documentation out there that suggests that similar artist comparisons are derived primarily from peoples listening habits. This is not to say that song features and heuristics are not considered, as most similar songs seem to be in the same genre, but rather the nature of the service weights what people are listening to ahead of the sonic qualities of the music. Of course one can draw interesting conclusion about how all internet data is skewed towards its use case, what is more interesting is how people listening habits can be affected by these decisions. Last.fm has tens of millions of users who use the service, and the way that last.fm chooses to present and suggest new music can significantly change someone’s listening habits into a different direction. </p>
+            <h2>Retrospective</h2>
+            <p>Going forward, I would like to do a more in depth analysis of the different ways in which last.fm and other services suggest music to us. Also, I would have liked to have done a more in depth analysis of single artists and their different songs to see if any patterns emerge (and to see if the current observations hold over a larger sample size).  Also, severe difficulties were encountered when attempting to build the networks themselves. This was primarily because I couldn’t figure out how to make the R module work with my data to display a network that had colors for different artists, a better label system for the nodes, and a way to change the nodes size based on similarity percentage. </p>
+          </div><!-- /.blog-post -->
+
+            <div class="sidebar-module">
+            <h4>Links</h4>
+            <ol class="list-unstyled">
+              <li><a href="http://www.last.fm/api">Last.fm api docs</a></li>
+              <li><a href="https://github.com/christophergandrud/d3Network">D3 Network R GitHub</a></li>
+              <li><a href="https://github.com/youpy/ruby-lastfm">ruby-lastfm GitHub</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
